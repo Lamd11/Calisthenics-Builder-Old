@@ -8,3 +8,17 @@ main {
     padding: 1rem;
     text-align: center;
 }
+
+#skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+}
+
+.skill-cards{
+    background-color: #3d9bff;
+    padding: 1.3rem;
+    margin: 1.3rem;
+    width: 500px;
+    height: 600px;
+}
