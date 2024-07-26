@@ -1,0 +1,10 @@
+main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#filter {
+    padding: 1rem;
+    text-align: center;
+}
