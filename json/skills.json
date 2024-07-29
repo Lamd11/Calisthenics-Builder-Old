@@ -1,0 +1,71 @@
+[
+    {
+      "name": "Handstand",
+      "type": "handstanding",
+      "image": "/images/skills/Planche.jpg",
+      "description": "A handstand is an inverted position where you balance on your hands with your body fully extended upwards. It's typically performed by kicking up into the position or pressing up from a bent-arm position.",
+      "progressions": [
+        ["Pyke Pushup", 1],
+        ["Decline Pyke Pushup", 2],
+        ["Handstand (Wall Asissted)", 4],
+        ["Freestand Handstand", 5]
+      ]
+    },
+    {
+      "name": "Planche",
+      "type": "push",
+      "image": "/images/skills/Planche.jpg",
+      "description": "The planche is a challenging skill where you hold your body parallel to the ground, supported only by your hands. Your arms are straight, and your body is kept in a horizontal line from head to toes.",
+      "progressions": [
+        ["Crow Pose", 2],
+        ["Frog Stand", 3],
+        ["Straight-Arm Frog Stand", 4],
+        ["Tuck Planche", 5],
+        ["Advanced Tuck Planche", 6],
+        ["Pseudo Pushup", 7],
+        ["Straddle Planche", 8],
+        ["One Leg Planche", 9],
+        ["Full Planche", 11],
+        ["Straight-Arm Planche to Handstand", 12],
+        ["Rings Straight-Arm Straddle Planche to Handstand", 14],
+        ["Straight-Arm Straddle Planche to Handstand", 15]
+      ]
+    },
+    {
+      "name": "Dragon Squat",
+      "type": "leg",
+      "image": "/images/skills/Planche.jpg",
+      "description": "A dragon squat, or dragon pistol squat, involves performing a single-leg squat while the other leg is extended behind and around the squatting leg. It requires significant balance, strength, and flexibility.",
+      "progressions": [
+        ["Squat", 1],
+        ["Assisted Pistol Squat", 2],
+        ["Pistol Squat", 3],
+        ["Elevated Pistol Squat", 4],
+        ["Shrimp Squat", 5],
+        ["Assisted Dragon Squat", 6], 
+        ["Dragon Squat", 7],
+        ["Pistol to Dragon Squat", 7],
+        ["Weighted Dragon Squat", 8]
+      ]
+    },
+    {
+      "name": "Backlever",
+      "type": "pull",
+      "image": "/images/skills/Planche.jpg",
+      "description": "In a back lever, you hang from a bar or rings and rotate your body backward, keeping it straight and parallel to the ground. This position is held by tensing your core, back, and shoulder muscles.",
+      "progressions": [
+        ["German Hang", 1],
+        ["Skin the Cat", 2],
+        ["Tuck Backlever", 3],
+        ["Advanced Tuck Backlever", 4],
+        ["Straddle Backlever", 5],
+        ["One Leg Backlever", 6],
+        ["Full Backlever", 7], 
+        ["Backlever Pullout", 8], 
+        ["German Hang Pullout", 9],
+        ["Bent Arm Pull-up to Backlever", 10],
+        ["Handstand Lower to Backlever", 11]
+      ]
+    }
+  ]
+  

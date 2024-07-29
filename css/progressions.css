@@ -9,7 +9,7 @@ main {
     text-align: center;
 }
 
-#skills-cards {
+#cards {
     display: flex;
     flex-wrap: wrap;
     place-items: center;
