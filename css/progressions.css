@@ -12,13 +12,29 @@ main {
 #cards {
     display: flex;
     flex-wrap: wrap;
-    place-items: center;
+    justify-content: center;
 }
 
-.skill-cards{
+.skill-card{
     background-color: #3d9bff;
     padding: 1.3rem;
     margin: 1.3rem;
     width: 500px;
     height: 600px;
+    cursor: pointer;
 }
+
+.skill-card-image {
+    object-fit: cover;
+    width: 500px;
+}
+
+.skill-button {
+    font-size: 1.5rem;
+    border: none;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+
+
