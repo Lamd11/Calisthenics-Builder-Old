@@ -1,5 +1,7 @@
 const skillCards = document.getElementById("cards");
 const skillDropdownList = document.getElementById("filter");
+const skillOverlay = document.getElementById("skill-overlay");
+const skillPopup = document.getElementById("skill-popup")
 
 const fetchData = async () => {
   try {
@@ -29,9 +31,33 @@ const setCards = (skills) => {
   skillContainer.forEach((container, index) => {
     container.addEventListener("click", () => {
       console.log(skills[index].name);
+      skillOverlay.style.display = "block";
+      skillPopup.style.display = "flex";
+      skillPopup.innerHTML = `
+        <div id="skill-view-container">
+          <h2>${skills[index].name}</h2>
+          <p>${skills[index].description}</p>
+          <button class="close-button">Close</button>
+        </div>
+      `;
+
+      document.querySelector(".close-button").addEventListener("click", () => {
+        skillOverlay.style.display = "none";
+        skillPopup.style.display = "none";
+      });
+
     });
   });
 };
+
+
+skillOverlay.addEventListener("click", (e) => {
+  if(!skillPopup.contains(e.target)){
+    skillOverlay.style.display = "none";
+    skillPopup.style.display = "none";
+  }
+});
+
 
 skillDropdownList.addEventListener("change", async (e) => {
   const skills = await fetchData();
