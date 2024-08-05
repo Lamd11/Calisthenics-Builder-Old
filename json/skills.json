@@ -2,6 +2,7 @@
     {
       "name": "Handstand",
       "type": "handstanding",
+      "difficulty": 5,
       "image": "/images/skills/Planche.jpg",
       "description": "A handstand is an inverted position where you balance on your hands with your body fully extended upwards. It's typically performed by kicking up into the position or pressing up from a bent-arm position.",
       "progressions": [
@@ -14,6 +15,7 @@
     {
       "name": "Planche",
       "type": "push",
+      "difficulty": 11,
       "image": "/images/skills/Planche.jpg",
       "description": "The planche is a challenging skill where you hold your body parallel to the ground, supported only by your hands. Your arms are straight, and your body is kept in a horizontal line from head to toes.",
       "progressions": [
@@ -34,6 +36,7 @@
     {
       "name": "Dragon Squat",
       "type": "leg",
+      "difficulty": 7,
       "image": "/images/skills/Planche.jpg",
       "description": "A dragon squat, or dragon pistol squat, involves performing a single-leg squat while the other leg is extended behind and around the squatting leg. It requires significant balance, strength, and flexibility.",
       "progressions": [
@@ -51,6 +54,7 @@
     {
       "name": "Backlever",
       "type": "pull",
+      "difficulty": 7,
       "image": "/images/skills/Planche.jpg",
       "description": "In a back lever, you hang from a bar or rings and rotate your body backward, keeping it straight and parallel to the ground. This position is held by tensing your core, back, and shoulder muscles.",
       "progressions": [

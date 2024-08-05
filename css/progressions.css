@@ -17,17 +17,25 @@ main {
 }
 
 .skill-card{
-    background-color: #3d9bff;
-    padding: 1.3rem;
-    margin: 1.3rem;
-    width: 500px;
-    height: 600px;
+    background-color: #081320;
+    padding: 0;
+    margin: 20px;
+    width: 350px;
+    height: 280px;
     cursor: pointer;
+    color: white;
+    
+}
+
+.skill-card-title {
+    height: 30px;
+    text-align: center;
 }
 
 .skill-card-image {
     object-fit: cover;
-    width: 500px;
+    width: 350px;
+    height: 210px;
 }
 
 .skill-button {
@@ -62,5 +70,47 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+#skill-view-container{
+    justify-content: center;
+}
+
+.skill-close {
+    top: 1rem;
+    position: absolute;
+    right: 32px;
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.4;
+}
+
+.skill-close:hover {
+    opacity: 1
+}
+
+.skill-close:before, .skill-close:after {
+    position: absolute;
+    left: 15px;
+    content: '';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.skill-close:before {
+    transform: rotate(45deg);
+}
+
+.skill-close:after {
+    transform: rotate(-45deg);
+}
+
+#skill-view-container-image {
+    object-fit: cover;
+    width: 90%;
+    max-height: 70%;
+}
+
+
 
 

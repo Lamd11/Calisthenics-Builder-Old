@@ -21,7 +21,7 @@ const setCards = (skills) => {
   skillCards.innerHTML = skills.map(
     ({ name, image, description }) =>
       `<div class="skill-card">
-          <h2>${name}</h2>
+          <h2 class="skill-card-title">${name}</h2>
           <img src="${image}" alt="${name}" class="skill-card-image">
        </div>
       `
@@ -35,13 +35,15 @@ const setCards = (skills) => {
       skillPopup.style.display = "flex";
       skillPopup.innerHTML = `
         <div id="skill-view-container">
+          <div class="skill-close"></div>
           <h2>${skills[index].name}</h2>
+          <img src="${skills[index].image}" alt="${skills[index].name}" id="skill-view-container-image">\
+          <div id="difficulty-bar"></div>
           <p>${skills[index].description}</p>
-          <button class="close-button">Close</button>
         </div>
       `;
 
-      document.querySelector(".close-button").addEventListener("click", () => {
+      document.querySelector(".skill-close").addEventListener("click", () => {
         skillOverlay.style.display = "none";
         skillPopup.style.display = "none";
       });
